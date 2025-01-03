@@ -2,6 +2,7 @@
     "manufacturer": "Diego Palacios",
     "keyboard_name": "cantor",
     "maintainer": "diepala",
+    "development_board": "blackpill_f401",
     "features": {
         "bootmagic": true,
         "command": false,
@@ -9,13 +10,6 @@
         "extrakey": true,
         "mousekey": true,
         "nkro": true
-    },
-    "development_board": "blackpill_f401",
-    "url": "https://github.com/diepala/cantor",
-    "usb": {
-        "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
     },
     "matrix_pins": {
         "direct": [
@@ -26,10 +20,10 @@
         ]
     },
     "split": {
-        "enabled": true,
         "bootmagic": {
             "matrix": [4, 5]
         },
+        "enabled": true,
         "matrix_pins": {
             "right": {
                 "direct": [
@@ -43,6 +37,12 @@
         "serial": {
             "driver": "usart"
         }
+    },
+    "url": "https://github.com/diepala/cantor",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
     },
     "community_layouts": ["split_3x6_3"],
     "layouts": {

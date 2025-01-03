@@ -6,6 +6,12 @@
 #define SERIAL_USART_FULL_DUPLEX   // Enable full duplex operation mode.
 #define SERIAL_USART_TX_PIN B6     // USART TX pin
 #define SERIAL_USART_RX_PIN B7     // USART RX pin
+#define TAPPING_TERM 200
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+#define PERMISSIVE_HOLD
+
+//#define DEBUG_MATRIX_SCAN_RATE
+//#define DEBUG_MATRIX
 
 /*
  * Feature disable options
